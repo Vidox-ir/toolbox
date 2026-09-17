@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+@theme {
+  --font-vazir: 'Vazirmatn', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-lalezar: 'Lalezar', cursive, system-ui, sans-serif;
+  --font-rubik: 'Rubik', sans-serif;
+  --font-changa: 'Changa', sans-serif;
+}
+
+body {
+  font-family: 'Vazirmatn', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: #07090e;
+  color: #f1f5f9;
+  overflow-x: hidden;
+}
+
+/* Persian display typography classes */
+.font-display {
+  font-family: 'Lalezar', cursive, sans-serif;
+}
+
+.font-body {
+  font-family: 'Vazirmatn', sans-serif;
+}
+
+.font-gaming {
+  font-family: 'Changa', 'Lalezar', sans-serif;
+}
+
+/* Custom glow and glass utilities */
+.glow-cyan {
+  box-shadow: 0 0 25px -5px rgba(6, 182, 212, 0.35);
+}
+
+.glow-purple {
+  box-shadow: 0 0 25px -5px rgba(168, 85, 247, 0.35);
+}
+
+.glow-amber {
+  box-shadow: 0 0 25px -5px rgba(245, 158, 11, 0.35);
+}
+
+.neon-border-cyan {
+  border-color: rgba(6, 182, 212, 0.6);
+  box-shadow: 0 0 15px rgba(6, 182, 212, 0.25), inset 0 0 15px rgba(6, 182, 212, 0.1);
+}
+
+.neon-border-purple {
+  border-color: rgba(168, 85, 247, 0.6);
+  box-shadow: 0 0 15px rgba(168, 85, 247, 0.25), inset 0 0 15px rgba(168, 85, 247, 0.1);
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0b0f19;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}
+
+/* Grid background pattern */
+.bg-grid-pattern {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.07) 1px, transparent 0);
+  background-size: 28px 28px;
+}
+
+.bg-dot-pattern {
+  background-image: radial-gradient(rgba(6, 182, 212, 0.12) 1.5px, transparent 0);
+  background-size: 24px 24px;
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Vidox Toolbox | جعبه ابزار ویدوکس",
+  "description": "مرجع تخصصی دانلود ابزار، پک‌های ترنزیشن، فونت و استریم برای ادیتورها و استریمرهای حرفه‌ای",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
